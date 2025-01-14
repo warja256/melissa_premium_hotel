@@ -1,0 +1,22 @@
+.hotel-photo {
+    max-width: 100%; 
+    height: auto;
+}
+
+body {
+    background: linear-gradient(rgba(20, 39, 74, 0.5), rgba(20, 39, 74, 0.5)), url('../assets/png/hotel.png');
+    background-repeat: no-repeat; 
+    background-size: cover; /* Растягивает изображение, чтобы заполнить весь фон */
+    background-position: center;
+    height: 100vh; /* Убедитесь, что body занимает всю высоту */
+    margin: 0;
+    padding: 0;
+    background-color: rgba(20, 39, 74, 0.5);;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    align-items: center;
+}

@@ -1,0 +1,44 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+}
+
+.img-logo img {
+    max-width: 80%; /* Чтобы не выходил за пределы контейнера */
+    height: auto;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 10%;
+}
+
+.header-items {
+    display: flex; /* Flexbox для горизонтального выравнивания */
+    gap: 78px; /* Расстояние между пунктами */
+    list-style: none; /* Убираем маркеры списка */
+    padding-top: 45px;
+    padding-bottom: 45px;
+    font-family: Montserrat;
+    font-size: clamp(10px, 2vw, 20px);
+}
+
+.header-items li {
+    display: inline; 
+}
+
+.header-item {
+    text-decoration: none; 
+    color: inherit; 
+    color: white;
+}
+
+.header-item-target {
+    text-decoration: underline;
+    color: inherit; 
+    font-weight: bold;
+    color: white;
+}
