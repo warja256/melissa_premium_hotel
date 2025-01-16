@@ -4,7 +4,7 @@
 }
 
 body {
-    background: linear-gradient(rgba(20, 39, 74, 0.5), rgba(20, 39, 74, 0.5)), url('../assets/png/hotel.png');
+    background: linear-gradient(rgba(20, 39, 74, 0.7), rgba(20, 39, 74, 0.7)), url('../assets/png/hotel.png');
     background-repeat: no-repeat; 
     background-size: cover; /* Растягивает изображение, чтобы заполнить весь фон */
     background-position: center;
@@ -12,6 +12,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: rgba(20, 39, 74, 0.5);;
+    font-family: Montserrat;
 }
 
 .welcome {
@@ -19,4 +20,56 @@ body {
     flex-direction: column;
     gap: 22px;
     align-items: center;
+    padding-top: 5%;
+    color: white;
+}
+
+.welcome h3 {
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.welcome h1 {
+    font-size: 96px;
+    letter-spacing: 7%;
+}
+
+.welcome-button {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    margin-top: 5%;
+    border: none; 
+    background-color: transparent;
+    cursor: pointer; 
+}
+
+.welcome-button img {
+    max-width: 297px; 
+    max-height: 118px; 
+}
+
+.welcome-learn-more {
+    align-self: center;
+    justify-self: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 5%;
+    padding-top: 5%;
+}
+
+.welcome-down {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    border: none; 
+    background-color: transparent;
+    cursor: pointer; 
+}
+
+.welcome-down img {
+    max-width: 60px; 
+    max-height: 55px; 
+    padding-top: 20%;
 }
