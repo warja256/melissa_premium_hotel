@@ -4,7 +4,7 @@
 }
 
 body {
-    background: linear-gradient(rgba(20, 39, 74, 0.7), rgba(20, 39, 74, 0.7)), url('../assets/png/hotel.png');
+    background-image: url('../assets/png/hotel.png');
     background-repeat: no-repeat; 
     background-size: cover; /* Растягивает изображение, чтобы заполнить весь фон */
     background-position: center;
